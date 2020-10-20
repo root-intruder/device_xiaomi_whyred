@@ -24,7 +24,7 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # RR Stuffs
 TARGET_FACE_UNLOCK_SUPPORTED := true
-RR_BUILDTYPE := Official
+#RR_BUILDTYPE := Official
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
